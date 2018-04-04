@@ -1,0 +1,72 @@
+/*-----------------------
+        Responsive for device < 640px
+-----------------------------------------*/
+@media screen and (max-width: 640px) {
+    .wrapper {
+        overflow: hidden;
+    }
+    /*------------------- Typography_SP -------------------*/
+    .title_h2 {
+        // font-size: 24px;
+        // color: $color-primary;
+        // line-height: 1.8;
+        // font-weight: bold;
+    }
+    .title_h3 {
+        // font-size: 24px;
+        // line-height: 1.8;
+        // color: $color-primary;
+        // font-weight: bold;
+    }
+    .title_h4 {
+        // font-size: 24px;
+        // color: $color-primary;
+        // line-height: 1.8;
+        // font-weight: bold;
+    }
+    .text {
+        // padding:
+        // font-size: ;
+        // color:
+    }
+    .local_03 {
+        .local_03_01 {
+            .text_top {
+                font-size: 3vw;
+            }
+        }
+        .text {
+            width: 45vw;
+            font-size: 3vw!important;
+        }
+    }
+    .local_05 {
+        .text {
+            width: 40vw!important;
+            font-size: 3vw!important;
+        }
+        .local_05_02 .text {
+            width: 45vw!important;
+        }
+        .local_05_04 .text {
+        }
+        .local_05_05 .text {
+            width: 52vw!important;
+        }
+    }
+    .local_07 {
+        .item_line {
+            .text {
+                font-size: 3.5vw;
+            }
+        }
+    }
+    .footer  {
+        .description_footer {
+            font-size: 3.5vw;
+        }
+        .text {
+            font-size: 3.8vw;
+        }
+    }
+}

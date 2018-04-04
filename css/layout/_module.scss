@@ -1,0 +1,67 @@
+/*------------------- Wraper -------------------*/
+.wrapper {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    // ...
+}
+.row_clear {
+    @extend %clearfix;
+}
+.container {
+    @extend %clearfix;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*------------------- Component -------------------*/
+// /*------------------- Typography -------------------*/
+.title_h2 {
+    text-align: center;
+}
+.title_h3 {
+    text-align: center;
+    // font-size: 24px;
+    // line-height: 1.8;
+    // color: $color-primary;
+    // font-weight: bold;
+}
+.text {
+    // padding:
+    // font-size: ;
+    // color:
+}
+
+// /*------------------- Form -------------------*/
+input {
+    // padding:
+    // border:
+    &:focus {
+
+    }
+}
+select {
+    // padding:
+    // border:
+}
+textarea {
+    // padding:
+    // border:
+}
+.btn_local {
+    margin-top: -10%;
+}
+.btn_local, .btn {
+    position: relative;
+    text-align: center;
+    // padding:
+    // border:
+    // background:
+    // font-size:
+    // color:
+}
+.arrow {
+    padding: 5% 0;
+    text-align: center;
+}
