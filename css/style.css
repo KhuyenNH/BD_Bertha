@@ -374,7 +374,7 @@ button:focus, input:focus, a:focus {
   background: url("../images/q2.png") no-repeat;
 }
 
-.local_07 .item_line.items_line_02 .text_02 {
+.local_07 .item_line.items_line_02 .text {
   background: url("../images/a2.png") no-repeat;
 }
 
@@ -441,12 +441,13 @@ button:focus, input:focus, a:focus {
 
 .local_08 .envelope {
   margin: 0 -2px 0 -6%;
+  padding-bottom: 8%;
 }
 
 /*    local_09
 --------------------------------------*/
 .local_09 {
-  margin: 5.5% 0 7%;
+  margin: 0 0 7%;
 }
 
 /*    footer
@@ -479,6 +480,11 @@ button:focus, input:focus, a:focus {
   padding-top: 30px;
   font-weight: bold;
   font-size: 18px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
 }
 
 /*======================================
